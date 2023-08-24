@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Generate a <br /><span>Random Password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <div>
+          <button type="button">Generate password</button>
+          <div class="length">
+            <label for="length" style="padding-bottom: 5px"
+              >Password Length :</label
+            >
+            <input
+              type="number"
+              name="length"
+              id="passwordLength"
+              min="8"
+              max="18"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="passwords_container">
+        <button type="button" id="first_password">
+          <span id="password1">Password</span>
+        </button>
+
+        <button type="button" id="second_password">
+          <span id="password2">Password</span>
+        </button>
+      </div>
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>

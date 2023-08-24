@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #1f2937;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main {
+  max-width: 550px;
+  padding: 40px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-bottom: 30px;
+  border-bottom: solid 5px #2f3e53;
+}
+
+h1,
+p {
+  color: white;
+  margin: 0px;
+}
+p {
+  padding-top: 10px;
+}
+
+span {
+  color: #4adf86;
+}
+
+@media (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+button {
+  background-color: #10b981;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.length {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.passwords_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+  border-bottom: solid 5px #2f3e53;
+}
+.passwords_container button {
+  background-color: #273549;
+  font-size: 16px;
+  color: #55f991;
+}
+
+.passwords_container button:hover {
+  background-color: #4b5563;
+}
+
+.passwords_container button:focus {
+  background-color: #4b556373;
+}
+
+#passwordLength {
+  background-color: #10b981;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+  border-top: solid 5px #2f3e53;
+  cursor: pointer;
+  text-align: center;
+}
