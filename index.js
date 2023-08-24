@@ -112,7 +112,7 @@ const copyText = (field) => {
   alert('Copied the password: ' + field.innerText);
 };
 
-let passwordLength = lengthEl.value;
+let passwordLength = 8;
 
 const passwordGenerator = () => {
   passwordOne.textContent = '';
